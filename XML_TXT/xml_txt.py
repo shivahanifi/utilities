@@ -10,7 +10,7 @@ Original file is located at
 
 This is a Python code that will help to transform XML files into TXT files.
 
-Helpfull Sources:
+Helpful Sources:
 - [The ElementTree XML API](https://docs.python.org/2/library/xml.etree.elementtree.html)
 - [Python parse XML and save as txt](https://stackoverflow.com/questions/19772288/python-parse-xml-and-save-as-txt)
 
@@ -42,7 +42,7 @@ print(tree)
 root = tree.getroot()
 print(root.tag, root.attrib)
 
-"""This is the XML file used for this tutorial:
+"""This is the XML file used for this tutorial. It is based on the output of the [LabelImg](https://github.com/heartexlabs/labelImg) tool.
 ```
 <?xml version="1.0"?>
 <annotation>
